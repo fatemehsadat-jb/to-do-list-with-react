@@ -1,0 +1,181 @@
+* {
+    font-family: 'byekan';
+}
+
+body {
+    background-color: #f3d6ae;
+    overflow-x: hidden;
+}
+
+.todocolor {
+    background-color: #ffffff;
+    margin: 80px 80px 60px 0px;
+    border: solid 2px #937b6f;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    min-height: 650px;
+}
+
+.buttons {
+    background-color: #ffffff;
+    border: none;
+    color: #f6c290;
+}
+
+.buttons:hover {
+    color: #937b6f;
+}
+
+.buttons:focus {
+    box-shadow: none;
+}
+
+.showbuttontrue {
+    color: #937b6f;
+    border: solid 1.5px #937b6f;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.showbuttontrue:hover {
+    background-color: #937b6f;
+    color: #ffffff;
+}
+
+.showbuttontrue:focus {
+    box-shadow: none;
+}
+
+.showbuttonfalse {
+    color: #f6c290;
+    border: solid 1.5px #f6c290;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.showbuttonfalse:hover {
+    background-color: #f6c290;
+    color: #ffffff;
+}
+
+.showbuttonfalse:focus {
+    box-shadow: none;
+}
+
+.textcolor {
+    color: #937b6f;
+}
+
+.inputs {
+    color: #f6c290;
+    border: solid 1px #f6c290;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.inputs::placeholder {
+    color: #f6c290;
+}
+
+.textfinish {
+    color: #937b6f;
+    margin-right: 100px;
+}
+
+.worktext {
+    color: #937b6f;
+    font-size: larger;
+}
+
+.meetimg {
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width:750px) {
+    .meetimg {
+        width: 150px;
+        height: 150px;
+    }
+    .todocolor {
+        margin-right: 40px;
+        min-height: 500px;
+    }
+    .textfinish {
+        margin-right: 60px;
+    }
+}
+
+@media (max-width:560px) {
+    .meetimg {
+        width: 100px;
+        height: 100px;
+    }
+    .todocolor {
+        margin-right: 30px;
+        min-height: 450px;
+    }
+    .textfinish {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width:400px) {
+    .meetimg {
+        width: 60px;
+        height: 60px;
+    }
+    .todocolor {
+        margin-right: 10px;
+        min-height: 300px;
+    }
+    .textfinish {
+        margin-right: 30px;
+    }
+}
+
+.tea {
+    margin-top: 120px;
+}
+
+.listcontainer {
+    width: 73%;
+}
+
+.imgcontainer {
+    width: 27%;
+}
+
+@media (max-width:576px) {
+    .workcontainer {
+        display: block;
+    }
+    .workspan {
+        display: block;
+    }
+}
+
+.darkcolor {
+    background-color: #937b6f;
+    color: #ffffff;
+}
+
+.lightcolor {
+    background-color: #f6c290;
+}
+
+.textcolor2 {
+    font-size: medium;
+}
